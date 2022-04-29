@@ -4,7 +4,7 @@ const Footer = () =>{
 
 
     return(
-        <div className="flex flex-col w-full mt-12 md:flex-row md:place-items-center md:place-content-around">
+        <div className="flex flex-col w-full mt-12 md:flex-row md:place-items-center md:place-content-around mb-3">
             <img className="w-64 self-center" src={Logo} alt="Logo" />
             <div>
             <div className="flex place-content-center my-2.5 mx-20 md:mx-36 lg:mx-52">

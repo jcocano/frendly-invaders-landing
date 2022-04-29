@@ -1,4 +1,3 @@
-import Asset1 from "../../assets/banners/b1-1024.png"
 
 import Team from "../team"
 import Footer from "../footer"
@@ -18,7 +17,7 @@ const FrendlyIvanders= () =>{
             journey of the Frendly Invaders as they set to find a new place to call home.
         </p>
         <div className="flex justify-center">
-            <img className="pt-7 max-w-[300px]" src={Asset1} alt="Image 1" />
+           <img className="pt-7 max-w-[300px]" src="" alt="Image 1" />
         </div>
         <h2 className="font-marvin text-fi-red text-xl pt-10">meet the team</h2>
         <Team />        

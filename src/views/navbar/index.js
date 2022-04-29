@@ -14,11 +14,14 @@ const Navbar = () => {
     const path = useLocation()
 
     const printPath = () => {
-        if (path.pathname != "/"){
+        console.log(path.pathname)
+        if (path.pathname != "/" && path.pathname != "/error-404" ){
             setTransparentBar(false)
-        }else{
+        }
+        else{
             setTransparentBar(true)
         }
+        console.log(transparentBar)
     }
 
     useEffect(() =>{
