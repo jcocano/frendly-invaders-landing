@@ -4,7 +4,7 @@ const Footer = () =>{
 
 
     return(
-        <div className="flex flex-col w-full mt-12 md:flex-row md:place-items-center md:place-content-around mb-3">
+        <div className="flex flex-col w-full mt-14 md:flex-row md:place-items-center md:place-content-around mb-3">
             <img className="w-64 self-center" src={Logo} alt="Logo" />
             <div>
             <div className="flex place-content-center my-2.5 mx-20 md:mx-36 lg:mx-52">
@@ -43,8 +43,9 @@ const Footer = () =>{
             </div>
             <div className="md:flex md:place-content-center">
                 <p className="text-center font-poppins text-fi-black md:mx-2">© 2022 Frendly Ivaders</p>
-                <p className="text-center font-poppins text-fi-black md:mx-2"> Development by <a href="http://www.metaone.mx" className="hover:text-fi-red2">® MetaOne</a></p>
+                <p className="text-center font-poppins text-fi-black md:mx-2"> Powered by <a href="http://www.metaone.mx" className="hover:text-fi-red2">® MetaOne</a></p>
             </div>
+                <p className="pt-3 text-center font-poppins text-fi-black md:mx-2">*The development of the art is on going, everything is on subject to change.</p>
             </div>
         </div>
     )

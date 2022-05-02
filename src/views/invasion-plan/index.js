@@ -7,7 +7,7 @@ import Footer from "../footer"
 const InvasionPlan = () => {
     return(
         <>
-        <section className="mx-5 pt-36" >
+        <section className="mx-10 pt-36" >
             <div className="flex flex-col">
                 <h2 className="font-marvin text-fi-red text-xl">blueprint</h2>
                  <p className="pt-2.5 font-poppins text-fi-black">
